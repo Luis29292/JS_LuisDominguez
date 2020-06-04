@@ -1,6 +1,9 @@
 var a = prompt("Piso del elevador A");
 var b = prompt("Piso del elevador B");
 var persona = prompt("Piso del usuario");
+a = parseInt(a);
+b = parseInt(b);
+persona = parseInt(persona);
 var rA= persona-a;
 var rB= persona-b;
 if (rA<0){
@@ -17,4 +20,7 @@ else if (rB<rA) {
 }
 else if (rA==rB) {
   alert("Cualquiera funciona");
+}
+else{
+  alert("Solo introduzca números");
 }
