@@ -1,0 +1,18 @@
+div {
+  height: 275px;
+  border: 0.5em dashed black;
+  background-color: Silver;
+}
+h1 {
+  color: blue;
+  text-decoration: underline;
+}
+#med {
+  color: blue;
+  text-decoration: underline;
+  font-style: italic;
+}
+#jelou
+{
+  color: red;
+}
